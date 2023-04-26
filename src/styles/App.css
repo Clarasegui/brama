@@ -1,0 +1,18 @@
+/* POLICES */
+
+@font-face {
+  font-family: 'Basteleur-Bold';
+  src: url('../assets/fonts/webfonts/Basteleur-Bold.woff') format('woff');
+}
+
+/* PAGE */
+
+body {
+    margin: 0;
+}
+
+.App {
+  margin: 0;
+  font-family: 'Basteleur-Bold', sans-serif;
+  color: white;
+}

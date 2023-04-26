@@ -1,0 +1,8 @@
+.home_container {
+    height: 100vh;
+    padding: 1rem;
+    background-image: url("../assets/images/home_background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
