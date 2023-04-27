@@ -1,10 +1,15 @@
 import '../styles/home.css';
-import Header from '../components/header';
+import Logo from '../components/logo';
+import Navbar from '../components/navbar';
 
 function Home() {
     return (
         <div className="home_container">
-            <Header />
+            <header>
+                <Logo className="home_logo"/>
+                <Navbar className="home_navbar"/>
+            </header>
+            
         </div>
     );
 }
