@@ -1,0 +1,97 @@
+.tour_container {
+    padding: 0 2.5rem;
+    background-image: url("../assets/images/tour_background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.tour_logo {
+    color: #f3ff6c;
+    text-shadow: rgb(224, 160, 203) 3px 0px 0px, rgb(224, 160, 203) 2.83487px 0.981584px 0px, rgb(224, 160, 203) 2.35766px 1.85511px 0px, rgb(224, 160, 203) 1.62091px 2.52441px 0px, rgb(224, 160, 203) 0.705713px 2.91581px 0px, rgb(224, 160, 203) -0.287171px 2.98622px 0px, rgb(224, 160, 203) -1.24844px 2.72789px 0px, rgb(224, 160, 203) -2.07227px 2.16926px 0px, rgb(224, 160, 203) -2.66798px 1.37182px 0px, rgb(224, 160, 203) -2.96998px 0.42336px 0px, rgb(224, 160, 203) -2.94502px -0.571704px 0px, rgb(224, 160, 203) -2.59586px -1.50383px 0px, rgb(224, 160, 203) -1.96093px -2.27041px 0px, rgb(224, 160, 203) -1.11013px -2.78704px 0px, rgb(224, 160, 203) -0.137119px -2.99686px 0px, rgb(224, 160, 203) 0.850987px -2.87677px 0px, rgb(224, 160, 203) 1.74541px -2.43999px 0px, rgb(224, 160, 203) 2.44769px -1.73459px 0px, rgb(224, 160, 203) 2.88051px -0.838247px 0px;
+}
+
+.tour_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+    text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
+
+}
+
+.tour_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+.tour_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
+}
+
+.tour_content_title {
+    font-size: 4rem;
+    color: #f3ff6c;
+    text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
+    margin: 0;
+}
+
+.tour_date {
+    font-size: 2rem;
+    color: #f3ff6c;
+    text-shadow: none;
+    margin: 0 0.5rem 0 0;
+    text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
+}
+
+.tour_city {
+    font-size: 1.5rem;
+    text-shadow: none;
+    margin: 0 0.5rem 0 0.5rem;
+    text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
+}
+
+.tour_location {
+    font-size: 2rem;
+    color: #f3ff6c;
+    text-shadow: none;
+    margin: 0 0 0 0.5rem;
+    text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+    
+}

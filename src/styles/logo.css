@@ -2,3 +2,23 @@ h1 {
     font-size: 6rem;
     margin: 0;
 }
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+
+h1 {
+    font-size: 4rem;
+}
+
+
+
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+    
+}

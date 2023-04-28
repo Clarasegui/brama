@@ -8,7 +8,11 @@ a {
     font-size: 1.6rem;
 }
 
-ul {
+a:hover {
+    
+}
+
+.navbar_links {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,4 +23,28 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+/* MEDIA QUERIES */
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 992px) {
+
+    h2 {
+        font-size: 1rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 768px) {
+    
 }

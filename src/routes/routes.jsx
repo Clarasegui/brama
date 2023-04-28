@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from '../pages/home.jsx';
+import Home from '../pages/home';
 import Ep from '../pages/ep';
-import Tour from '../pages/ep';
+import Tour from '../pages/tour';
 import Videos from '../pages/videos';
 import About from '../pages/about';
 
