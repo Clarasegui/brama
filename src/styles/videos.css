@@ -58,10 +58,44 @@ header {
 
 @media screen and (max-width: 992px) {
 
+    .videos_container {
+        padding: 0 1.5rem;
+    }
+
+    .videos_navbar {
+        gap: 3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-left: 4rem;
+        text-align: center;
+    }
+
+    .videos_content {
+        padding-left: 6rem;
+    }
+
 }
 
 /* Si l'écran est inférieur ou égal à */
 
 @media screen and (max-width: 768px) {
+
+    .videos_container {
+        padding: 0 0.5rem;
+    }
+
+    .videos_navbar {
+        gap: 1rem;
+    }
+
+    h2 {
+        margin-left: 1.5rem;
+    }
+
+    .videos_content {
+        padding: 0;
+    }
     
 }

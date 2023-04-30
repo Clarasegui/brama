@@ -88,10 +88,36 @@ p {
 
 @media screen and (max-width: 992px) {
 
+    .tour_container {
+        padding: 0 1.5rem;
+    }
+
+    .tour_navbar {
+        gap: 3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-left: 4rem;
+        text-align: center;
+    }
+
 }
 
 /* Si l'écran est inférieur ou égal à */
 
 @media screen and (max-width: 768px) {
+
+    .tour_container {
+        padding: 0 0.5rem;
+    }
+
+    .tour_navbar {
+        gap: 1rem;
+    }
+
+     h2 {
+        margin-left: 1.5rem;
+    }
     
 }

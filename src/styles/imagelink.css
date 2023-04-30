@@ -1,0 +1,13 @@
+.image-link {
+    cursor: pointer;
+    display: inline-block;
+    z-index: 0;
+}
+
+.surround_link {
+    width: 10%;
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    z-index: 1;
+}

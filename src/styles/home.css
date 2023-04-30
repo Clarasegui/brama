@@ -40,8 +40,14 @@ header {
         padding: 0 1.5rem;
     }
 
-    .home_navbar {
-        gap: 1rem;
+   .home_navbar {
+        gap: 3rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        margin-left: 4rem;
+        text-align: center;
     }
 
     .instagram_icon {
@@ -53,5 +59,21 @@ header {
 /* Si l'écran est inférieur ou égal à */
 
 @media screen and (max-width: 768px) {
+
+    .home_container {
+        padding: 0 0.5rem;
+    }
+
+    .home_navbar {
+        gap: 1rem;
+    }
+
+     h2 {
+        margin-left: 1.5rem;
+    }
+
+    .instagram_icon {
+        color: black;
+    }
     
 }

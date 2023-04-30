@@ -69,19 +69,19 @@ function Tour() {
                 <p className="tour_content_title">JUILLET</p>
                 <ul className="tour_list">
                     <li>
-                        <p className="tour_date">7 et 8</p>|<p className="tour_city">Saint-Denis-de-Gastines</p>|<p className="tour_location">Au Foin de La Rue</p>
+                        <p className="tour_date">7/8</p>|<p className="tour_city">Saint-Denis-de-Gastines</p>|<p className="tour_location">Au Foin de La Rue</p>
                     </li>
                     <li>
-                        <p className="tour_date">14 ou 15</p>|<p className="tour_city">Taix</p>|<p className="tour_location">Les Pieds Dans La Bassine</p>
+                        <p className="tour_date">14/15</p>|<p className="tour_city">Taix</p>|<p className="tour_location">Les Pieds Dans La Bassine</p>
                     </li>
                     <li>
-                        <p className="tour_date">1er et 12</p>|<p className="tour_city">Canada</p>|<p className="tour_location"></p>
+                        <p className="tour_date">1/12</p>|<p className="tour_city">Canada</p>|<p className="tour_location"></p>
                     </li>
                     <li>
                         <p className="tour_date">14</p>|<p className="tour_city">Carhaix</p>|<p className="tour_location">Vieilles Charrues</p>
                     </li>
                     <li>
-                        <p className="tour_date">21, 22, 23</p>|<p className="tour_city">Val d'Ajol</p>|<p className="tour_location">Le Pied Orange</p>
+                        <p className="tour_date">21/22/23</p>|<p className="tour_city">Val d'Ajol</p>|<p className="tour_location">Le Pied Orange</p>
                     </li>
                     <li>
                         <p className="tour_date">23</p>|<p className="tour_city">SP Vigo SP</p>|<p className="tour_location">Sinsal Festival</p>
