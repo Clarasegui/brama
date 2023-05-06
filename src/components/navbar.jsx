@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import ImageLink from '../components/imagelink';
-import SurroundImageLarge from '../assets/images/link_image.png'
+import LinkEp from '../assets/images/link_ep.png'
 
 function Navbar(props) {
 
@@ -14,7 +14,7 @@ function Navbar(props) {
         <h2>hypnorock du massif central</h2>
             <nav>
                 <ul className="navbar_links">
-                    <li><ImageLink link="/ep" text="ep" image={SurroundImageLarge}/></li>
+                    <li><ImageLink link="/ep" text="ep" image={LinkEp}/></li>
                     <li><Link to="/tour">tour</Link></li>
                     <li><Link to="/videos">vidéos</Link></li>
                     <li ><Link to="/about">about</Link></li>
