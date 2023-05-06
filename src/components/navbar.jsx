@@ -14,7 +14,7 @@ function Navbar(props) {
         <h2>hypnorock du massif central</h2>
             <nav>
                 <ul className="navbar_links">
-                    <li><ImageLink link="/ep" text="ep" image={LinkEp}/></li>
+                    <ImageLink link="/ep" text="ep" image={LinkEp}/>
                     <li><Link to="/tour">tour</Link></li>
                     <li><Link to="/videos">vidéos</Link></li>
                     <li ><Link to="/about">about</Link></li>
