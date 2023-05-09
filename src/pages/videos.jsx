@@ -1,5 +1,4 @@
 import '../styles/videos.css';
-import Logo from '../components/logo';
 import Navbar from '../components/navbar';
 import YoutubeEmbed from '../components/youtubeEmbed';
 
@@ -7,8 +6,7 @@ function Videos() {
     return (
         <div className="videos_container">
             <header>
-                <Logo className="videos_logo" />
-                <Navbar className="videos_navbar" />
+                <Navbar navBarClassName="videos_navbar" logoClassName="videos_logo" />
             </header>
             <div className="videos_content">
                 <YoutubeEmbed embedId="NyLDeixQhoo" videoTitle={"ma jòia"}/>

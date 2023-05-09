@@ -19,10 +19,11 @@ header {
 }
 
 .videos_navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     text-decoration: none;
     color: white;
     font-size: 1.7rem;
@@ -39,17 +40,16 @@ header {
 .videos_responsive {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
     margin: 2rem;
 }
 
 .videos_title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #baeee5;
     text-shadow: rgb(98, 76, 148) 3px 0px 0px, rgb(98, 76, 148) 2.83487px 0.981584px 0px, rgb(98, 76, 148) 2.35766px 1.85511px 0px, rgb(98, 76, 148) 1.62091px 2.52441px 0px, rgb(98, 76, 148) 0.705713px 2.91581px 0px, rgb(98, 76, 148) -0.287171px 2.98622px 0px, rgb(98, 76, 148) -1.24844px 2.72789px 0px, rgb(98, 76, 148) -2.07227px 2.16926px 0px, rgb(98, 76, 148) -2.66798px 1.37182px 0px, rgb(98, 76, 148) -2.96998px 0.42336px 0px, rgb(98, 76, 148) -2.94502px -0.571704px 0px, rgb(98, 76, 148) -2.59586px -1.50383px 0px, rgb(98, 76, 148) -1.96093px -2.27041px 0px, rgb(98, 76, 148) -1.11013px -2.78704px 0px, rgb(98, 76, 148) -0.137119px -2.99686px 0px, rgb(98, 76, 148) 0.850987px -2.87677px 0px, rgb(98, 76, 148) 1.74541px -2.43999px 0px, rgb(98, 76, 148) 2.44769px -1.73459px 0px, rgb(98, 76, 148) 2.88051px -0.838247px 0px;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    padding-left: 1rem;
+    padding-top: 1rem;
 }
 
 /* MEDIA QUERIES */
@@ -82,6 +82,10 @@ header {
 
 @media screen and (max-width: 768px) {
 
+    header {
+        margin-bottom: 3rem;
+    }
+
     .videos_container {
         padding: 0 0.5rem;
     }
@@ -96,6 +100,8 @@ header {
 
     .videos_content {
         padding: 0;
+        flex-direction: column;
+        align-items: center;
     }
     
 }

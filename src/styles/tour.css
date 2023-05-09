@@ -11,6 +11,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5rem;
+    gap: 2rem;
 }
 
 .tour_logo {
@@ -19,10 +20,11 @@ header {
 }
 
 .tour_navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     text-decoration: none;
     color: white;
     font-size: 1.7rem;
@@ -46,10 +48,6 @@ header {
 li {
     display: flex;
     align-items: center;
-}
-
-p {
-    text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
 }
 
 .tour_content_title {

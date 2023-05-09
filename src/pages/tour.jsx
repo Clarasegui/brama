@@ -1,13 +1,11 @@
 import '../styles/tour.css';
-import Logo from '../components/logo';
 import Navbar from '../components/navbar';
 
 function Tour() {
     return (
         <div className="tour_container">
             <header>
-                <Logo className="tour_logo" />
-                <Navbar className="tour_navbar" />
+                <Navbar navBarClassName="tour_navbar" logoClassName="tour_logo" />
             </header>
             <div className="tour_content">
                 <p className="tour_content_title">MARS</p>

@@ -1,17 +1,15 @@
 import '../styles/about.css';
-import Logo from '../components/logo';
 import Navbar from '../components/navbar';
 
 function About() {
     return (
         <div className="about_container">
             <header>
-                <Logo className="about_logo" />
-                <Navbar className="about_navbar" />
+                <Navbar navBarClassName="about_navbar" logoClassName="about_logo" />
             </header>
             <div className="about_content_container">
-                <div className="about_content_center">
-                    <p>En s’engageant tête baissée dans les contre allées
+                <div>
+                    <p className="about_content_center">En s’engageant tête baissée dans les contre allées
                         du Massif Central, Brama a choisi l’exigence
                         impitoyable du trio pour exprimer pleinement
                         la transe d’un rock psychédélique farouche et

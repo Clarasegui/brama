@@ -18,5 +18,10 @@ h1 {
 /* Si l'écran est inférieur ou égal à */
 
 @media screen and (max-width: 768px) {
+
+    h1{
+        font-size: 3rem;
+    }
+        
     
 }

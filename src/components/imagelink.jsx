@@ -1,8 +1,8 @@
-import {useState} from 'react';
-import {Link} from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/imagelink.css';
 
-function ImageLink({link, text, image}) {
+function ImageLink({ link, text, image, className }) {
     const [isHovering, setIsHovering] = useState(false);
 
     return (
@@ -11,10 +11,10 @@ function ImageLink({link, text, image}) {
             onMouseOver={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
         >
-            <div className="link">
-                <Link  to={link}>{text}</Link>
-            </div>
-            {isHovering && <div className="surround_link"><img src={image} alt="gribouilli" /></div>}
+            <Link to={link}>
+                <p className="link">{text}</p>
+                {isHovering && <div className={className}><img src={image} alt="gribouilli" /></div>}
+            </Link>
 
         </div>
     );

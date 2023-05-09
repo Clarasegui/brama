@@ -1,5 +1,4 @@
 import '../styles/ep.css';
-import Logo from '../components/logo';
 import Navbar from '../components/navbar';
 import { Link } from 'react-router-dom';
 import BramaVinyle from '../assets/images/brama_vinyle.png';
@@ -14,8 +13,7 @@ function Ep() {
     return (
         <div className="ep_container">
             <header>
-                <Logo className="ep_logo" />
-                <Navbar className="ep_navbar" />
+                <Navbar navBarClassName="ep_navbar" logoClassName="ep_logo" />
             </header>
             <div className="ep_content_container">
                 <div className="ep_content_left">
