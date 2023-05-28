@@ -43,6 +43,7 @@ li {
 }
 
 .tour_content_title {
+    text-align: center;
     font-size: 4rem;
     color: #f3ff6c;
     text-shadow: rgb(224, 160, 203) 1px 0px 0px, rgb(224, 160, 203) 0.540302px 0.841471px 0px, rgb(224, 160, 203) -0.416147px 0.909297px 0px, rgb(224, 160, 203) -0.989992px 0.14112px 0px, rgb(224, 160, 203) -0.653644px -0.756802px 0px, rgb(224, 160, 203) 0.283662px -0.958924px 0px, rgb(224, 160, 203) 0.96017px -0.279415px 0px;
