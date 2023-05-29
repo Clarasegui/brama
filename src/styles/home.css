@@ -78,12 +78,13 @@
 @media screen and (max-width: 600px) {
 
     .home_logo {
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     h2 {
         margin: 0;
         font-size: 1.8rem;
+        text-align: center;
     }
 
     .home_navbar {

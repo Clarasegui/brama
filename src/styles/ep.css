@@ -164,6 +164,7 @@
     }
 
     .ep_title {
+        width: 20rem;
         padding-top: 2rem;
         padding-bottom: 2rem;
         font-size: 4rem;
