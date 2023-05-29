@@ -4,6 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 .tour_logo {
@@ -117,12 +118,16 @@ li {
 
 @media screen and (max-width: 600px) {
 
+    header {
+        margin-bottom: 2.5rem;
+    }
+
     .tour_container {
         padding: 0 1rem;
     }
 
     .tour_logo {
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     h2 {
@@ -133,6 +138,27 @@ li {
     .tour_navbar {
         flex-direction: column;
         gap: 0;
+    }
+
+    .tour_content {
+        line-height: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .tour_content_title {
+        text-align: left;
+        font-size: 2.5rem;
+    }
+
+    .tour_list {
+        align-items: flex-start;
+        padding: 0;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .tour_date, .tour_city, .tour_location {
+        text-align: left;
+        font-size: 0.8rem;
     }
 
     

@@ -96,6 +96,36 @@ h2 {
         flex-direction: column;
         gap: 0;
     }
+}
 
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 600px) {
+
+    .videos_container {
+        padding: 0 1rem;
+    }
+
+    .videos_logo {
+        font-size: 4rem;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .videos_navbar {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .videos_content {
+        padding: 0;
+    }
+
+    .videos_title {
+        font-size: 1.5rem;
+    }
     
 }

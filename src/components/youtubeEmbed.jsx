@@ -4,7 +4,7 @@ function YoutubeEmbed({ embedId, videoTitle }) {
     return (
         <div className="videos_responsive">
             <iframe
-                width="400"
+                width="300"
                 height="180"
                 src={`https://www.youtube.com/embed/${embedId}`}
                 frameBorder="0"

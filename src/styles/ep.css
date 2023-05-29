@@ -4,7 +4,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .ep_logo {
@@ -145,7 +145,7 @@
     }
 
     .ep_logo {
-        font-size: 6rem;
+        font-size: 4rem;
     }
 
     h2 {
@@ -157,6 +157,36 @@
     .ep_navbar {
         flex-direction: column;
         gap: 0;
+    }
+
+    .ep_content_container {
+        flex-direction: column;
+    }
+
+    .ep_title {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 4rem;
+    }
+
+    .ep_image {
+        width: 300%;
+    }
+
+    .ep_content_left {
+        width: 100%;
+    }
+
+    .ep_content_right {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .music_link {
+        font-size: 1.5rem;
     }
 
     
