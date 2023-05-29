@@ -1,5 +1,5 @@
 .home_container {
-    padding: 0 2.5rem;
+    padding: 0 1.5rem;
     background-image: url("../assets/images/home_background_image.jpg");
     background-size: cover;
     background-position: center;
@@ -28,14 +28,14 @@
 
 /* Si l'écran est inférieur ou égal à */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1145px) {
 
     .home_container {
         padding: 0 1.5rem;
     }
 
    .home_navbar {
-        gap: 3rem;
+        gap: 1rem;
     }
 
     h2 {
@@ -63,11 +63,33 @@
     }
 
      h2 {
-        margin-left: 1.5rem;
+        font-size: 0.8rem;
+        margin: 0;
     }
 
     .instagram_icon {
         color: black;
     }
+    
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 600px) {
+
+    .home_logo {
+        font-size: 6rem;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .home_navbar {
+        flex-direction: column;
+        gap: 0;
+    }
+
     
 }

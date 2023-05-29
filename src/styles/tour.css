@@ -1,5 +1,5 @@
 .tour_container {
-    padding: 0 2.5rem;
+    padding: 0 1.5rem;
     background-image: url("../assets/images/tour_background_image.jpg");
     background-size: cover;
     background-position: center;
@@ -110,5 +110,30 @@ li {
      h2 {
         margin-left: 1.5rem;
     }
+    
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 600px) {
+
+    .tour_container {
+        padding: 0 1rem;
+    }
+
+    .tour_logo {
+        font-size: 6rem;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .tour_navbar {
+        flex-direction: column;
+        gap: 0;
+    }
+
     
 }

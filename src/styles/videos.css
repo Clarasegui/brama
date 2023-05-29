@@ -1,5 +1,5 @@
 .videos_container {
-    padding: 0 2.5rem;
+    padding: 0 1.5rem;
     background-image: url("../assets/images/videos_background_image.jpg");
     background-size: cover;
     background-position: center;
@@ -9,6 +9,10 @@
 .videos_logo {
     color: #baeee5;
     text-shadow: rgb(98, 76, 148) 3px 0px 0px, rgb(98, 76, 148) 2.83487px 0.981584px 0px, rgb(98, 76, 148) 2.35766px 1.85511px 0px, rgb(98, 76, 148) 1.62091px 2.52441px 0px, rgb(98, 76, 148) 0.705713px 2.91581px 0px, rgb(98, 76, 148) -0.287171px 2.98622px 0px, rgb(98, 76, 148) -1.24844px 2.72789px 0px, rgb(98, 76, 148) -2.07227px 2.16926px 0px, rgb(98, 76, 148) -2.66798px 1.37182px 0px, rgb(98, 76, 148) -2.96998px 0.42336px 0px, rgb(98, 76, 148) -2.94502px -0.571704px 0px, rgb(98, 76, 148) -2.59586px -1.50383px 0px, rgb(98, 76, 148) -1.96093px -2.27041px 0px, rgb(98, 76, 148) -1.11013px -2.78704px 0px, rgb(98, 76, 148) -0.137119px -2.99686px 0px, rgb(98, 76, 148) 0.850987px -2.87677px 0px, rgb(98, 76, 148) 1.74541px -2.43999px 0px, rgb(98, 76, 148) 2.44769px -1.73459px 0px, rgb(98, 76, 148) 2.88051px -0.838247px 0px;
+}
+
+h2 {
+    text-align: center;
 }
 
 .videos_navbar {
@@ -26,7 +30,7 @@
 
 .videos_content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -49,7 +53,7 @@
 
 /* Si l'écran est inférieur ou égal à */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1145px) {
 
     .videos_container {
         padding: 0 1.5rem;
@@ -61,7 +65,7 @@
 
     h2 {
         font-size: 1rem;
-        margin-left: 4rem;
+        margin-left: 1rem;
         text-align: center;
     }
 
@@ -75,26 +79,23 @@
 
 @media screen and (max-width: 768px) {
 
-    header {
-        margin-bottom: 3rem;
-    }
-
     .videos_container {
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 
-    .videos_navbar {
-        gap: 1rem;
+    .videos_logo {
+        font-size: 6rem;
     }
 
     h2 {
-        margin-left: 1.5rem;
+        margin: 0;
+        font-size: 1.8rem;
     }
 
-    .videos_content {
-        padding: 0;
+    .videos_navbar {
         flex-direction: column;
-        align-items: center;
+        gap: 0;
     }
+
     
 }

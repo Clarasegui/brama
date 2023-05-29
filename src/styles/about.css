@@ -1,5 +1,5 @@
 .about_container {
-    padding: 0 2.5rem;
+    padding: 0 1.5rem;
     background-image: url("../assets/images/about_background_image.jpg");
     background-size: cover;
     background-position: center;
@@ -105,7 +105,50 @@
 
     .about_content_container {
         flex-direction: column;
-        align-items: flex-end;
+        align-items: center;
     }
+
+    .about_content_center {
+        width:  auto;
+        margin: 0 3rem 0 3rem;
+    }
+
+    .about_content_credits {
+        text-align: center;
+    }
+
+    .about_content_contacts {
+        text-align: center;
+    }
+    
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 600px) {
+
+    .about_container {
+        padding: 0 1rem;
+    }
+
+    .about_logo {
+        font-size: 4rem;
+    }
+
+    h2 {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+
+    .about_navbar {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .about_content_center {
+            font-size: 1rem;
+        margin: 0 1rem 0 1rem;
+    }
+
     
 }

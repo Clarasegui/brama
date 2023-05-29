@@ -50,11 +50,80 @@
 
 /* Si l'écran est inférieur ou égal à */
 
+@media screen and (max-width: 1145px) {
+
+    .image-link {
+        width: 61px;
+        height: 51px;
+}
+
+    .link_ep {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -28px -31px;
+    }
+
+    .link_tour {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -28px -52px;
+
+}
+
+    .link_videos {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -28px -55px;
+}
+
+    .link_about {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -22px -53px;
+}
+
+}
+
+/* Si l'écran est inférieur ou égal à */
+
 @media screen and (max-width: 992px) {
 
     .image-link {
-    width: 66px;
-    height: 24px;
+        width: 61px;
+        height: 23px;
+}
+
+    .link_ep {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -28px -31px;
+    }
+
+    .link_tour {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -28px -52px;
+
+}
+
+    .link_videos {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -28px -55px;
+}
+
+    .link_about {
+        scale: 6%;
+        width: 100%;
+        height: 100%;
+        margin: -22px -53px;
 }
 
 }
@@ -75,7 +144,42 @@
 
 .link_ep {
     scale: 6%;
-    margin: -35px -37px;
+    margin: -29px -31px;
+}
+
+.link_videos {
+    scale: 6%;
+    margin: -31px -48px;
+}
+
+.link_about {
+    scale: 6%;
+    margin: -26px -49px;
+}
+
+.li_ep {
+    margin-right: -19px;
+}
+    
+}
+
+/* Si l'écran est inférieur ou égal à */
+
+@media screen and (max-width: 658px) {
+
+.image-link {
+    width: 49px;
+    height: 23px;
+}
+
+.link_tour {
+    scale: 6%;
+    margin: -29px -45px;
+}
+
+.link_ep {
+    scale: 6%;
+    margin: -29px -31px;
 }
 
 .link_videos {
