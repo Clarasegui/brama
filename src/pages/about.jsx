@@ -40,12 +40,12 @@ function About() {
                 </div>
                 <div className="about_content_right">
                     <div className="about_content_contacts">
-                        <p className="about_info">CONTACTS :</p>
+                        <p className="about_info_title">CONTACTS :</p>
                         <p className="about_info">Tourneur : Yvan Soyouz</p>
                         <p className="about_info">yvan@soyouzmusic.com</p>
                     </div>
                     <div className="about_content_credits">
-                        <p className="about_info">CRÉDITS :</p>
+                        <p className="about_info_title">CRÉDITS :</p>
                         <p className="about_info">Brama : Paolo Gauthier,</p>
                         <p className="about_info">Simon Guy,</p>
                         <p className="about_info">Baptiste Lherbeil</p>

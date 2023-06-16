@@ -47,15 +47,15 @@ function Ep() {
                         </li>
                         <hr />
                         <li className="music_list">
-                            <Link to="https://www.deezer.com/fr/artist/1207589" target="_blank" className="music_link"><FontAwesomeIcon icon={faDeezer} style={{ paddingRight: '1rem' }} />Deezer</Link>
+                            <Link to="https://www.deezer.com/search/brama%20la%20glane" target="_blank" className="music_link"><FontAwesomeIcon icon={faDeezer} style={{ paddingRight: '1rem' }} />Deezer</Link>
                         </li>
                         <hr />
                         <li className="music_list">
-                            <Link to="https://music.apple.com/fr/artist/brama/301822754" target="_blank" className="music_link"><FontAwesomeIcon icon={faApple} style={{ paddingRight: '1rem' }} />Apple Music</Link>
+                            <Link to="https://music.apple.com/fr/artist/brama/1639171365" target="_blank" className="music_link"><FontAwesomeIcon icon={faApple} style={{ paddingRight: '1rem' }} />Apple Music</Link>
                         </li>
                         <hr />
                         <li className="music_list">
-                            <Link to="https://www.deezer.com/fr/artist/1207589" target="_blank" className="music_link"><FontAwesomeIcon icon={faAmazon} style={{ paddingRight: '1rem' }} />Amazon Music</Link>
+                            <Link to="https://music.amazon.fr/albums/B0B9HZ1GHM" target="_blank" className="music_link"><FontAwesomeIcon icon={faAmazon} style={{ paddingRight: '1rem' }} />Amazon Music</Link>
                         </li>
                         <hr />
                         <li className="music_list">
