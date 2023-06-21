@@ -22,7 +22,7 @@ function Navbar(props) {
                 <ul className="navbar_links">
                     <li className="li_ep"><ImageLink link="/ep" text="EP" className="link_ep" image={LinkEp} /></li>
                     <li><ImageLink link="/tour" text="tour" className="link_tour" image={LinkTour} /></li>
-                    <li><ImageLink link="/videos" text="vidéos" className="link_videos" image={LinkVideos} /></li>
+                    <li><ImageLink link="/videos" text="videos" className="link_videos" image={LinkVideos} /></li>
                     <li><ImageLink link="/about" text="about" className="link_about" image={LinkAbout} /></li>
                 </ul>
             </nav>

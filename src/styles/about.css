@@ -155,6 +155,7 @@
     .about_navbar {
         flex-direction: column;
         gap: 0;
+        margin: 1rem;
     }
 
     .about_content_center {

@@ -63,6 +63,7 @@ h2 {
 
     .videos_navbar {
         gap: 3rem;
+        margin: 1rem;
     }
 
     h2 {
@@ -95,6 +96,7 @@ h2 {
     }
 
     .videos_navbar {
+        margin: 1rem;
         flex-direction: column;
         gap: 0;
     }
@@ -118,6 +120,7 @@ h2 {
     }
 
     .videos_navbar {
+        margin: 1rem;
         flex-direction: column;
         gap: 0;
     }

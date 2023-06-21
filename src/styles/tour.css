@@ -88,6 +88,7 @@ li {
 
     .tour_navbar {
         gap: 3rem;
+        margin: 1rem;
     }
 
     h2 {
@@ -108,6 +109,7 @@ li {
 
     .tour_navbar {
         gap: 1rem;
+        margin: 1rem;
     }
 
      h2 {
@@ -121,7 +123,7 @@ li {
 @media screen and (max-width: 600px) {
 
     header {
-        margin-bottom: 2.5rem;
+        margin-bottom: 0;
     }
 
     .tour_container {
@@ -140,6 +142,7 @@ li {
     .tour_navbar {
         flex-direction: column;
         gap: 0;
+        margin: 1rem;
     }
 
     .tour_content {

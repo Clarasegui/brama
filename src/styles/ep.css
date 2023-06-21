@@ -87,6 +87,7 @@
 
     .ep_navbar {
         gap: 3rem;
+        margin: 1rem;
     }
 
     h2 {
@@ -101,6 +102,7 @@
 
     .instagram_icon {
         color: white;
+        margin-bottom: 1rem;
     }
 
     .ep_description {
@@ -127,6 +129,7 @@
 
     .ep_navbar {
         gap: 1rem;
+        margin: 1rem;
     }
 
      h2 {
@@ -158,6 +161,7 @@
     .ep_navbar {
         flex-direction: column;
         gap: 0;
+        margin: 1rem;
     }
 
     .ep_content_container {
