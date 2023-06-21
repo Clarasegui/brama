@@ -5,6 +5,11 @@
   src: url('../assets/fonts/webfonts/Basteleur-Bold.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Basteleur-Moonlight';
+  src: url('../assets/fonts/webfonts/Basteleur-Moonlight.woff') format('woff');
+}
+
 /* PAGE */
 
 body {
