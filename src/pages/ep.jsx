@@ -17,28 +17,40 @@ function Ep() {
             </header>
             <div className="ep_content_container">
                 <div className="ep_content_left">
-                    <p className="ep_description">Puisant son infuence tant dans le
+                    <p className="ep_description_french">Puisant son infuence tant dans le
                         krautrock que le rock psychédélique ou
                         la noise, cet EP est résolument inscrit
                         dans un folklore imaginaire bien à eux.
                     </p>
-                    <p className="ep_description">Vielle à roue, guitare et batterie
+                    <p className="ep_description_french">Vielle à roue, guitare et batterie
                         transfigurées dans une poésie orageuse
                         occitane et un hypno-rock solaire, cette
                         première sortie du groupe est un DIY
                         pétaradant saturé d’électricité.
                     </p>
-                    <p className="ep_description">Glaner : recueillir les épis qui ont
+                    <p className="ep_description_french">Glaner : recueillir les épis qui ont
                         échappé aux moissons ; ici se trouve
                         l’énergie de ce premier opus, glanée
                         au milieu d’un rock mondialisé et de
                         traditions populaires locales.
                     </p>
-                    <p className="ep_title">1er EP</p>
-                    <p className="ep_title">La glane</p>
+                    <p className="ep_description_occitan">Aquel EP, que prend sas raiç tant dins lo  krautrock  
+                    coma dins  lo rock psiquedelic o ben la noise, s’inscriu prigondament dedins un folcòre imaginari 
+                    que lor es pròpe.</p>
+
+                    <p className="ep_description_occitan">Vièla de ròda, guitara e bateria tresmudas dins una poesia 
+                        occitana trondinairitz e un ipnò-rock solar, aquela primièra surtida dau grope es un DIY petaronaire 
+                        saturat d’electricitat.</p>
+
+                    <p className="ep_description_occitan">Glenar : reculhir d’espijas tombadas dau temps de la medason ; aquí 
+                    se trobarà l’energia d’aquel opus primier, glenat en plen mitan d’un rock mondializat e  de tradicions 
+                    popularas localas.</p>
+                    
                 </div>
                 <div className="ep_content_center">
                     <img src={BramaVinyle} alt="Brama EP Vinyle" className="ep_image" />
+                    <p className="ep_title">1er EP</p>
+                    <p className="ep_title">La glane</p>
                 </div>
                 <div className="ep_content_right">
                     <ul>

@@ -29,7 +29,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .about_content_center {

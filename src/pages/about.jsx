@@ -9,7 +9,7 @@ function About() {
             </header>
             <div className="about_content_container">
                 <div className="about_content_center">
-                    <p>En s’engageant tête baissée dans les contre allées
+                    <p className="text_french">En s’engageant tête baissée dans les contre allées
                         du Massif Central, Brama a choisi l’exigence
                         impitoyable du trio pour exprimer pleinement
                         la transe d’un rock psychédélique farouche et
@@ -37,6 +37,9 @@ function About() {
                         groupe tout entier ondule, vire de bord et se plie aux
                         exigences d’une matière sans cesse en mouvement,
                         loin des codes du binaire et du tout-venant.</p>
+                    <p className="text_occitan">Brama a retengut l'exigència dau trio per plenament exprimir la transida d'un ròck psiquedelic autentic e fèr, nascut au cuer dau Massiu Centrau. guitara/batariá dins un estat
+                        d'ipnòsa, viela viradoira tresmudada passada a la pedala, bordon taraudaire e chants en occitan de lutz, lo grope manda perincar los luòcs comuns en nos servir un trituradís
+                        de folclòre solar, dançaire e poëtic, e un ròck experimentau tot a l'òrle de sa creacion.</p>
                 </div>
                 <div className="about_content_right">
                     <div className="about_content_contacts">
