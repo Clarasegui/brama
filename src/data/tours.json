@@ -1,12 +1,6 @@
 [
     {
-        "month": "JUIN",
-        "concerts": [
-            {
-                "id":"10",
-                "date": "24",
-                "city": "Montpellier",
-                "location": "Le Peyrou"
+        "month": "2024",
             }
         ]
     },
