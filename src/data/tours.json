@@ -75,12 +75,12 @@
         ]
     },
     {
-        "month": "AOÛT",
+        "month": "JANVIER 2024",
         "concerts": [
             {
                 "id":"9",
-                "date": "7",
-                "city": "St Laurent de Neste",
+                "date": "19",
+                "city": "Groningen",
                 "location": "Nestival"
             },
             {
