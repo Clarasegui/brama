@@ -71,6 +71,23 @@
                 "date": "25",
                 "city": "Château de Lafauche",
                 "location": "Caph’ARTS’Naüm"
+                  }
+        ]
+    },
+    {
+        "month": "AOÛT",
+        "concerts": [
+            {
+                "id":"9",
+                "date": "7",
+                "city": "St Laurent de Neste",
+                "location": "Nestival"
+            },
+            {
+                "id":"9",
+                "date": "25",
+                "city": "Château de Lafauche",
+                "location": "Caph’ARTS’Naüm"
             }
         ]
     }
