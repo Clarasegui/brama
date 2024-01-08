@@ -79,15 +79,21 @@
         "concerts": [
             {
                 "id":"9",
-                "date": "19",
-                "city": "Groningen",
-                "location": "Nestival"
+                "date": "13",
+                "city": "Limoges",
+                "location": "CCM John Lennon"
             },
             {
                 "id":"9",
-                "date": "25",
-                "city": "Château de Lafauche",
-                "location": "Caph’ARTS’Naüm"
+                "date": "18",
+                "city": "Lille",
+                "location": "La Malterie"
+            },
+            {
+                "id":"9",
+                "date": "19",
+                "city": "Groningen - Der AA-Theater",
+                "location": "ESNS-Eurosonic"
             }
         ]
     }
